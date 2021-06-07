@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker&family=Wellfleet&display=swap");
+
+*{
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(61, 33, 234, 1) 0%,
+    rgba(36, 21, 128, 1) 100%
+  );
+  font-family: "Wellfleet", cursive;
+}
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(-16px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes up2 {
+    from {
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+header, #configuracoes nav{
+    animation-name: up;
+    animation-duration: 400ms;
+    animation-fill-mode: backwards;
+}
+
+#Noticias{
+    animation-name: up2;
+    animation-duration: 1s;
+}
+
+::-webkit-scrollbar {
+  width: 18px;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0c0c0c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000000;
+}
+
+header {
+  background: #242424;
+  position: absolute;
+  width: 1582px;
+  height: 60px;
+  top: 0px;
+  left: 0px;
+  border-radius: 3px;
+  cursor: default;
+}
+
+#logo {
+  position: absolute;
+  margin: 2px;
+  margin-left: 30px;
+  margin-top: 1px;
+  border-radius: 13px;
+  top: 5px;
+  font-size: 44px;
+  background: rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+#Home:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+
+#Cursos {
+  position: absolute;
+  display: inline;
+  top: -4px;
+  left: 664px;
+  transition: 0.7s;
+  color: gray;
+}
+
+#Cursos:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+
+#Social {
+  position: absolute;
+  display: inline;
+  top: -4px;
+  left: 520px;
+  transition: 0.7s;
+  color: gray;
+}
+
+#Social:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+
+#idProcurar {
+  position: absolute;
+  display: inline;
+  top: 20px;
+  left: 1010px;
+  background: rgba(2, 0, 0, 0.5);
+  border: none;
+  height: 30px;
+  border-radius: 6px;
+  color: white;
+}
+
+#lupa {
+  position: absolute;
+  display: inline;
+  top: 20px;
+  left: 970px;
+  background: rgba(2, 0, 0, 0.3);
+  border: none;
+  height: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+#Lupa:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+
+nav {
+  background: rgba(1, 1, 1, 0.63);
+  position: absolute;
+  top: 160px;
+  left: 80px;
+  height: 500px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#Noticias{
+    position: absolute;
+}
+
+#noticia2 {
+  position: absolute;
+  top: 160px;
+  left: 450px;
+}
+
+#noticia3 {
+  position: absolute;
+  top: 160px;
+  left: 800px;
+}
+
+#noticia4 {
+  position: absolute;
+  top: 160px;
+  left: 1150px;
+}
+
+#noticia5 {
+  position: absolute;
+  top: 710px;
+  left: 80px;
+}
+
+#noticia6 {
+  position: absolute;
+  top: 710px;
+  left: 450px;
+}
+
+#noticia7 {
+  position: absolute;
+  top: 710px;
+  left: 800px;
+}
+
+#noticia8 {
+  position: absolute;
+  top: 710px;
+  left: 1150px;
+}
+
+#noticia9 {
+  position: absolute;
+  top: 1250px;
+  left: 50px;
+  width: 1431px;
+  height: 100px;
+}
+
+#h11 {
+  font-size: 50px;
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  color: white;
+}
+
+#h12 {
+  font-size: 50px;
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  color: white;
+}
+
+#noticia9 h1 {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#noticia9 h1:hover {
+  color: rgb(172, 169, 169);
+}
+
+#iconeCurso {
+  position: absolute;
+  display: inline;
+  top: 19px;
+  left: 780px;
+  transition: 0.7s;
+}
+
+#iconeCurso:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+
+#iconeSocial {
+  position: absolute;
+  display: inline;
+  top: 19px;
+  left: 624px;
+  transition: 0.7s;
+}
+
+#iconeSocial:hover {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
+
+#configuracoes nav {
+  background: #242424;
+  top: 65px;
+  left: 1530px;
+  height: 700px;
+  width: 50px;
+  transition: 1s;
+}
+
+#configuracoes nav:hover {
+  width: 100px;
+  left: 1479px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+li img{
+  position: absolute;
+  top: 6px;
+  left: 4px;
+}
